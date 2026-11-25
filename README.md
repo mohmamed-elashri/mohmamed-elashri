@@ -11,7 +11,7 @@
 
 ## About
 
-I am a third-year Artificial Intelligence student focused on backend engineering. I build Python web services with tests and CI, and I work on putting machine learning and LLMs inside real applications. I prefer small, reviewable changes and I document how my projects run.
+I am a third-year Artificial Intelligence student focused on backend engineering. I build Python web services with tests and CI, and I work on putting machine learning and LLMs inside real applications. I prefer small, reviewable changes and I document how my projects run. Most of what I have built is Django and Flask services with tests, CI, and written limitations.
 
 ## Core expertise
 
@@ -45,11 +45,16 @@ Team project (Insight AI): retrieval-augmented question answering over WHO hyper
 - Reliable AI features: grounding, evaluation, and safe failure
 - Testing, CI, and security basics for Python services
 
-## Currently learning
+## Currently working on
 
-- PostgreSQL and production deployment
-- Containerized services with Docker Compose
-- Type checking and test coverage in Python projects
+- Replacing the synthetic demonstration data in Gym Assistant System with openly licensed datasets (Apache 2.0 and CC0 candidates, license checked)
+- Production readiness for Python services: static files, TLS, backups (documented gaps in `docs/DEPLOYMENT.md`)
+- Evaluating RAG answers with a benchmark and reporting limits honestly
+
+## More work
+
+- [Tourism in Egypt](https://mohmamed-elashri.github.io/tourism-in-egypt/): small Arabic (RTL) static site on GitHub Pages (Lighthouse: Accessibility 100, SEO 100)
+- [C# coursework](https://github.com/mohmamed-elashri/csharp-coursework): six introductory console exercises, built in GitHub Actions
 
 ## Connect
 
