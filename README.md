@@ -29,7 +29,9 @@ I am a third-year Artificial Intelligence student focused on backend engineering
 Django and Django REST Framework platform for fitness assessment and planning.
 - Scikit-learn models for fitness level and calorie estimates behind REST endpoints
 - LLM-generated workout plans with provider fallback
-- Session authentication, input validation, and a pytest suite that runs in GitHub Actions
+- Authenticated API (session auth with CSRF), secure production defaults, structured JSON logging
+- GitHub Actions: lint, pytest on Python 3.11 and 3.12, mypy, coverage reporting (82% line coverage in CI), Bandit, pip-audit, Docker build
+- Models are synthetic demonstrations, labelled as such in the repository
 
 ### [AI Clinical Decision Support](https://github.com/mohmamed-elashri/ai-clinical-decision-support)
 Team project (Insight AI): retrieval-augmented question answering over WHO hypertension guidelines. See the repository's `ATTRIBUTION.md` for team credit and my specific contributions.
