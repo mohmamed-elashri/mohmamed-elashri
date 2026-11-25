@@ -36,7 +36,7 @@ Django and Django REST Framework platform for fitness assessment and planning.
 ### [AI Clinical Decision Support](https://github.com/mohmamed-elashri/ai-clinical-decision-support)
 Team project (Insight AI): retrieval-augmented question answering over WHO hypertension guidelines. See the repository's `ATTRIBUTION.md` for team credit and my specific contributions.
 - Flask REST API with API-key authentication and Redis-based rate limiting
-- Hybrid BM25 and dense retrieval; paraphrase PageRecall@3 improved from 80% to 100% on a 30-question benchmark
+- Hybrid BM25 and dense retrieval; paraphrase PageRecall@3 improved from 80% to 100% on a 30-question benchmark (Precision@3 is 60%; small, self-built benchmark, not clinical validation)
 - Schema-validated, citation-grounded answers; API contract tests; Docker Compose and GitHub Actions
 
 ## Engineering interests
