@@ -11,7 +11,7 @@
 
 ## About
 
-I am a third-year Artificial Intelligence student focused on backend engineering. I build Python web services with tests and CI, and I work on putting machine learning and LLMs inside real applications. I prefer small, reviewable changes and I document how my projects run.
+I am a third-year Artificial Intelligence student focused on backend engineering. I build Python web services with tests and CI, and I work on putting machine learning and LLMs inside real applications. I prefer small, reviewable changes and I document how my projects run. Most of what I have built is Django and Flask services with tests, CI, and written limitations.
 
 ## Core expertise
 
@@ -36,7 +36,7 @@ Django and Django REST Framework platform for fitness assessment and planning.
 ### [AI Clinical Decision Support](https://github.com/mohmamed-elashri/ai-clinical-decision-support)
 Team project (Insight AI): retrieval-augmented question answering over WHO hypertension guidelines. See the repository's `ATTRIBUTION.md` for team credit and my specific contributions.
 - Flask REST API with API-key authentication and Redis-based rate limiting
-- Hybrid BM25 and dense retrieval; paraphrase PageRecall@3 improved from 80% to 100% on a 30-question benchmark
+- Hybrid BM25 and dense retrieval; paraphrase PageRecall@3 improved from 80% to 100% on a 30-question benchmark (Precision@3 is 60%; small, self-built benchmark, not clinical validation)
 - Schema-validated, citation-grounded answers; API contract tests; Docker Compose and GitHub Actions
 
 ## Engineering interests
@@ -45,11 +45,16 @@ Team project (Insight AI): retrieval-augmented question answering over WHO hyper
 - Reliable AI features: grounding, evaluation, and safe failure
 - Testing, CI, and security basics for Python services
 
-## Currently learning
+## Currently working on
 
-- PostgreSQL and production deployment
-- Containerized services with Docker Compose
-- Type checking and test coverage in Python projects
+- Replacing the synthetic demonstration data in Gym Assistant System with openly licensed datasets (Apache 2.0 and CC0 candidates, license checked)
+- Production readiness for Python services: static files, TLS, backups (documented gaps in `docs/DEPLOYMENT.md`)
+- Evaluating RAG answers with a benchmark and reporting limits honestly
+
+## More work
+
+- [Tourism in Egypt](https://mohmamed-elashri.github.io/tourism-in-egypt/): small Arabic (RTL) static site on GitHub Pages (Lighthouse: Accessibility 100, SEO 100)
+- [C# coursework](https://github.com/mohmamed-elashri/csharp-coursework): six introductory console exercises, built in GitHub Actions
 
 ## Connect
 
